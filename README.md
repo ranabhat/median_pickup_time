@@ -30,13 +30,13 @@ etc.
 To set up the required environment, just clone this repository to your local machine and install the requirements.txt.
 
 ```
-$ git clone git@g---------------
-$ cd ----------
+$ git clone https://github.com/ranabhat/median_pickup_time
+$ cd median_pickup_time
 ```
 ## Setup Virtual Environment
 
 ```
-$ cd <your folder>
+$ cd median_pickup_time
 $ python3 -m venv venv
 ```
 ## Activate the Virtual Environment and Install Required Package
