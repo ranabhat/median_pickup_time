@@ -122,9 +122,12 @@ dataframe = DataframePass(readCsvFile()[0]).dataframe
 dflist = takeDataframeReturnListofDataframes(dataframe)
 
 
+#uncomment the 2 lines after this to get the median (For travis test need to comment)
+#dfmedian = setIndexAsIso_8601_TimestampAndReturnListContainingItemAsTupleOfLocationAndMedian(dflist)
+#returnCSVfile(dfmedian)
 
-dfmedian = setIndexAsIso_8601_TimestampAndReturnListContainingItemAsTupleOfLocationAndMedian(dflist)
-returnCSVfile(dfmedian)
+
+
 #print(dfmedian[0])
 #d8 = DataframePass(readCsvFile()[1]).dataframe
 #print(type(float(d8.iloc[0,1])))
