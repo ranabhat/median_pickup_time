@@ -1,4 +1,4 @@
-# Median Pickup times
+# Median Pickup times [![Build Status](https://travis-ci.org/ranabhat/median_pickup_time.svg?branch=master)](https://travis-ci.org/ranabhat/median_pickup_time)
 This project aims to solve the [Wolt Coding Task](https://github.com/woltapp/summer2019) of Wolt's 
 Engineering Internships in 2019.
 
